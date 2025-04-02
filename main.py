@@ -81,7 +81,7 @@ with open("test.pptx", "rb") as file:
 
     imgDf = pl.DataFrame({\
         ".ci":[0],\
-        "filename":["compressed image"],\
+        "filename":["compressedImage.pptx"],\
         "mimetype":["application/vnd.ms-powerpoint"],\
         "checksum":[checksum],\
         ".content":[str(b64encode(fileBytes).decode("utf-8"))]\
